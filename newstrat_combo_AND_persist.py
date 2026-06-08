@@ -48,8 +48,8 @@ import itertools
 from collections import Counter
 import numpy as np
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/combo_AND_persist.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/combo_AND_persist.json"
 CD_FILL_FLOOR = 15
 
 SIGNALS = ["dip", "ofi", "crowd", "crowd_contra", "volc", "slopefade"]
