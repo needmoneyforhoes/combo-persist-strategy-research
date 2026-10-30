@@ -37,3 +37,8 @@ python3 combo_rerank.py                 # re-rank with schema-breakeven + robust
 Input panel `$DATA_DIR/market_panel.json` (`PANEL`) and output `$DATA_DIR/edge_pnl/combo_AND_persist.json` (`OUT_COL`) are hardcoded paths. The `data/` files are gitignored; fetch them from the private `polymarket-data` repo or repoint `PANEL` / `OUT_COL` at a local copy.
 
 Requires Python 3.8+ and numpy.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/combo-persist-strategy-research/issues/new). Pull requests are welcome too.
